@@ -26,7 +26,8 @@ class Song
     song = self.new
     song.name = song_name_string
     song.save
-  end 
+    song
+  end
 
 
 end
